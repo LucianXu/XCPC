@@ -13,7 +13,7 @@
 ### 2022
 
 [Hangzhou](https://github.com/LucianXu/XCPC/tree/main/ICPC/2022/Hangzhou), 
-[Jinan](https://github.com/LucianXu/XCPC/tree/main/ICPC/2022/jinan), 
+[Jinan](https://github.com/LucianXu/XCPC/tree/main/ICPC/2022/Jinan),
 [Xiaan](https://github.com/LucianXu/XCPC/tree/main/ICPC/2022/Xiaan)
 
 ## CCPC
