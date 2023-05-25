@@ -35,3 +35,5 @@
 ## 2023
 
 [Hubei](https://github.com/LucianXu/XCPC/tree/main/ProvinceContest/2023/Hubei)
+
+[Jiangxi](https://github.com/LucianXu/XCPC/tree/main/ProvinceContest/2023/Jiangxi)
