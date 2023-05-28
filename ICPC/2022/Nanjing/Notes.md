@@ -44,10 +44,10 @@
 
 对整棵树而言, 完全可以一层一层考虑.
 
-对第 $i$ 层 $layer$ $而言, 其深度为 $d$. 将这些点建立一棵虚树, 考虑 dp 转移式如下
+对第 $i$ 层 $layer$ 而言, 其深度为 $d$. 将这些点建立一棵虚树, 考虑 dp 转移式如下
 
 $$
-f_u = \min(f_u + \sum_{v \text{ is son of } u} f_v),
+f_u = \min \left(f_u + \sum_{v \text{ is son of } u} f_v \right),
 $$
 
 也就是考虑是否用 $u$ 染叶子.
@@ -78,7 +78,7 @@ $$
 ```
 
 <div align=center><img src="https://s2.loli.net/2023/05/28/rM7CV8pcN61Jo2Q.jpg" alt="1685250659626.jpg" style="zoom: 25%;" /><div>
-	
+
 ## M. Drain the Water Tank
 
 给水箱找出水口. 初级计算几何?
