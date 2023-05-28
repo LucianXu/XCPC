@@ -86,11 +86,11 @@ $$
 找局部最低点. 有三种情况:
 1. 上一个点的纵坐标比当前大, 下一个点的纵坐标比当前小, 判断一下外积, 不然会计算天花板上的点;
    
-    <img src="https://s2.loli.net/2023/05/28/SfwhbNagRvVGnFe.png" alt="image.png" style="zoom: 50%;" />
+    <img src="https://cdn.mathpix.com/snip/images/-XdVy0S_as20qJvM2_FqkA3XjhU695uVsh_Ahxy3L9k.original.fullsize.png" style="zoom: 50%;" />
 
 2. 上一个点的纵坐标比当前大, 下一个点的纵坐标和当前一样, 找到下一个纵坐标和当前不一样的点, 判断是否纵坐标变大了, 不需要判断外积.
    
-    <img src="https://s2.loli.net/2023/05/28/aRwz3pjOvQZg14t.png" alt="image.png" style="zoom: 50%;" />
+    <img src="https://cdn.mathpix.com/snip/images/uYiXY_tQu8TA_ndLmzv6McMtKSPP7e9YPuwcjI_mu00.original.fullsize.png" style="zoom: 50%;" />
 
 不这样算总能找到 coner case.
 
