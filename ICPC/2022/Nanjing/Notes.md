@@ -47,12 +47,12 @@
 对第 $i$ 层 $layer$ $而言, 其深度为 $d$. 将这些点建立一棵虚树, 考虑 dp 转移式如下
 
 $$
-f_u = Min(f_u + \sum_{v \text{ is son of } u} f_v),
+f_u = \min(f_u + \sum_{v \text{ is son of } u} f_v),
 $$
 
 也就是考虑是否用 $u$ 染叶子.
 
-然后就要考虑如果用的代价是多少. 这里就不再是在原树中的 $dep_u - d$ 了, 而是 $\min\limits_{d - dep_v, d - dep_u - 1}$, 预处理一个 ST 表即可.
+然后就要考虑如果用的代价是多少. 这里就不再是在原树中的 $dep_u - d$ 了, 而是 $\min\limits_{d - dep_v \leqslant i \leqslant d - dep_u - 1} \{ a_i\}$, 预处理一个 ST 表即可.
 
 ## I. Perfect Palindrome
 
