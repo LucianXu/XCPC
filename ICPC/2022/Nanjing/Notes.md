@@ -77,7 +77,7 @@ $$
 2 3 4 3 4 5
 ```
 
-<div align=center><img src="https://s2.loli.net/2023/05/28/rM7CV8pcN61Jo2Q.jpg" alt="1685250659626.jpg" style="zoom: 25%;" /><div>
+<div align=center><img src="https://s2.loli.net/2023/05/28/rM7CV8pcN61Jo2Q.jpg" alt="1685250659626.jpg" style="zoom: 25%;" /></div>
 
 ## M. Drain the Water Tank
 
@@ -87,12 +87,12 @@ $$
 1. 上一个点的纵坐标比当前大, 下一个点的纵坐标比当前小, 判断一下外积, 不然会计算天花板上的点;
    
 
-<div align=center><img src="https://s2.loli.net/2023/05/28/Y3oJ2GbPnANmBxX.jpg" style="zoom: 50%;" /><div>
+<div align=center><img src="https://s2.loli.net/2023/05/28/Y3oJ2GbPnANmBxX.jpg" style="zoom: 50%;" /></div>
 
 2. 上一个点的纵坐标比当前大, 下一个点的纵坐标和当前一样, 找到下一个纵坐标和当前不一样的点, 判断是否纵坐标变大了, 不需要判断外积.
    
 
-<div align=center><img src="https://s2.loli.net/2023/05/28/YzucmN7x49fqO8h.jpg" style="zoom: 50%;" /><div>
+<div align=center><img src="https://s2.loli.net/2023/05/28/YzucmN7x49fqO8h.jpg" style="zoom: 50%;" /></div>
 
 不这样算总能找到 coner case.
 
