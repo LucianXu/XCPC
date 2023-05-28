@@ -34,7 +34,7 @@
 1. 本身就不小于 $x$, 可行的位置为 $[1, n - m + 1]$;
 2. 即使加上最大值都不够, 没有可行的位置;
 3. 加上最小的就够了, 可行的位置为 $[i - ri + 1, i - le + 1]$;
-4. 直接计算出满足 $a_i + c + d (t - 1) >= x$ 的最小的 $t$, 可行的位置为 $i - ri + 1, i - t + 1$.
+4. 直接计算出满足 $a_i + c + d (t - 1) >= x$ 的最小的 $t$, 可行的位置为 $[i - ri + 1, i - t + 1]$.
 
 等差数列的单调性保证可行的位置一定是一个连续的区间, 没必要写线段树区间修改之类的, 一个差分在前缀和之后求最大值即可.
 
@@ -77,8 +77,8 @@ $$
 2 3 4 3 4 5
 ```
 
-<div align=center><img src="https://s2.loli.net/2023/05/28/rM7CV8pcN61Jo2Q.jpg" alt="1685250659626.jpg" style="zoom: 25%;" />
-
+<div align=center><img src="https://s2.loli.net/2023/05/28/rM7CV8pcN61Jo2Q.jpg" alt="1685250659626.jpg" style="zoom: 25%;" /><div>
+	
 ## M. Drain the Water Tank
 
 给水箱找出水口. 初级计算几何?
@@ -87,12 +87,12 @@ $$
 1. 上一个点的纵坐标比当前大, 下一个点的纵坐标比当前小, 判断一下外积, 不然会计算天花板上的点;
    
 
-<div align=center> <img src="https://s2.loli.net/2023/05/28/Y3oJ2GbPnANmBxX.jpg" style="zoom: 50%;" />
+<div align=center><img src="https://s2.loli.net/2023/05/28/Y3oJ2GbPnANmBxX.jpg" style="zoom: 50%;" /><div>
 
 2. 上一个点的纵坐标比当前大, 下一个点的纵坐标和当前一样, 找到下一个纵坐标和当前不一样的点, 判断是否纵坐标变大了, 不需要判断外积.
    
 
-<div align=center><img src="https://s2.loli.net/2023/05/28/YzucmN7x49fqO8h.jpg" style="zoom: 50%;" />
+<div align=center><img src="https://s2.loli.net/2023/05/28/YzucmN7x49fqO8h.jpg" style="zoom: 50%;" /><div>
 
 不这样算总能找到 coner case.
 
