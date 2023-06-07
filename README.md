@@ -23,6 +23,10 @@
 
 [Final](https://github.com/LucianXu/XCPC/tree/main/CCPC/2021/Final)
 
+### 2023
+
+[Xiangtan](https://github.com/LucianXu/XCPC/tree/main/CCPC/2023/Xiangtan)
+
 ## Province contest
 
 ## 2021
