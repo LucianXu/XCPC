@@ -23,6 +23,10 @@
 
 [Final](https://github.com/LucianXu/XCPC/tree/main/CCPC/2021/Final)
 
+### 2022
+
+[Guilin](https://github.com/LucianXu/XCPC/tree/main/CCPC/2022/Guilin)
+
 ### 2023
 
 [Xiangtan](https://github.com/LucianXu/XCPC/tree/main/CCPC/2023/Xiangtan)
